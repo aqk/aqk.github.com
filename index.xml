@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bit By Bit</title>
+    <link>http://aqk.im/</link>
+    <description>Recent content on Bit By Bit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2019 21:54:26 -0700</lastBuildDate>
+    
+	<atom:link href="http://aqk.im/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Computing History</title>
+      <link>http://aqk.im/posts/my-computing-history/</link>
+      <pubDate>Tue, 27 Aug 2019 21:54:26 -0700</pubDate>
+      
+      <guid>http://aqk.im/posts/my-computing-history/</guid>
+      <description>Part one, hardware.
+// the feeling of reaching out &amp;ndash; modem
+My computing history begins with me pestering my parents until they got me a computer. I didn&amp;rsquo;t know what hardware existed, but I knew I needed a computer.
+My first computer was the Tandy Color Computer 2.
+Image from wikimedia https://commons.wikimedia.org/wiki/File:TRS-80_Color_Computer_2-64K.jpg
+This computer was affectionaly dubbed the CoCo by its adherents elsewhere, but I didn&amp;rsquo;t learn this nickname until much later.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aqk.im/posts/my-computing-history-culture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aqk.im/posts/my-computing-history-culture/</guid>
+      <description>video game magazines
+computer shopper
+https://en.wikipedia.org/wiki/Digital_Equipment_Corporation
+gatekeeper.dec.com funet.fi sunet.se
+dial-up kermit BBS
+PPC: The first of Apple&amp;rsquo;s two system software miracles
+culture memes
+cobalt will you love cobalt?
+tunak ccomics
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aqk.im/posts/my-computing-history-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aqk.im/posts/my-computing-history-notes/</guid>
+      <description>This computer was affectionaly dubbed the CoCo by its adherents elsewhere, but I didn&amp;rsquo;t
+learn this until much later, as I was living in a small isolated town.
+COW ascii movies</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aqk.im/posts/my-computing-history-software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aqk.im/posts/my-computing-history-software/</guid>
+      <description>Loko at the coco char set ascii
+note that break is 0x03 microsoft malloc debug fill
+string handling in this basic was better than what we get in the cc standard library
+by Bill G https://en.wikipedia.org/wiki/Color_BASIC
+it wouldn&amp;rsquo;t be the first time I would encounter ms sw
+code: Needing to be fast / small
+ultima 9
+coco roms: http://www.trs-80.org/interview-jack-crenshaw/ li chen wang bill gates
+turbo pascal
+split program trupet winsock</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aqk.im/posts/teh-snobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aqk.im/posts/teh-snobs/</guid>
+      <description>https://books.google.com/books?id=yFs-_3jT-5kC&amp;amp;pg=PA281&amp;amp;lpg=PA281&amp;amp;dq=pc+magazine+ted.com+editor&amp;amp;source=bl&amp;amp;ots=K7KzWIRSTG&amp;amp;sig=ACfU3U1PWLThZ3u4BVJqvHFeJBOf8ZND4g&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=2ahUKEwji-ve2wKbkAhVSJzQIHcCiDz8Q6AEwA3oECBgQAQ#v=onepage&amp;amp;q=pc%20magazine%20ted.com%20editor&amp;amp;f=false
+page 85 &amp;ldquo;just teh&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>
