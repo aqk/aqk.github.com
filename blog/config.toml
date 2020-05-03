@@ -1,0 +1,43 @@
+baseURL = "http://aqk.im/"
+languageCode = "en-us"
+title = "Bit By Bit"
+theme = "blackburn"
+author = "Adam Kelly"
+paginate = 10
+
+
+[params]
+# Shown in the home page
+  subtitle = ""
+  brand = "Blackburn"
+  # googleAnalytics = "Your Google Analytics tracking ID"
+  # disqus = "Your Disqus shortname"
+  highlightjs = "androidstudio" # CSS name for highlight.js
+  dateFormat = "02 Jan 2006, 15:04"
+
+
+# obsidian, dracula ascetic
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<i class='fa fa-wrench fa-fw'></i>"
+    weight = 4
+    url = "/projects/"
+
+  [[menu.main]]
+    name = "Contact"
+    #pre = "<i class='fa fa-phone fa-fw'></i>"
+    pre = "<i class='fa fa-pencil fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+
+[social]
+github = "aqk"
+twitter = "AdamQKelly"

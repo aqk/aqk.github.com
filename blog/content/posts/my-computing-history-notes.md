@@ -1,0 +1,7 @@
+
+This computer was affectionaly dubbed the CoCo by its adherents elsewhere, but I didn't \
+learn this until much later, as I was living in a small isolated town.
+
+
+COW ascii movies
+

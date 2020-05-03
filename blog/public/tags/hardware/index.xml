@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware on Bit By Bit</title>
+    <link>http://aqk.im/tags/hardware/</link>
+    <description>Recent content in hardware on Bit By Bit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2019 21:54:26 -0700</lastBuildDate>
+    
+	<atom:link href="http://aqk.im/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Computing History</title>
+      <link>http://aqk.im/posts/my-computing-history/</link>
+      <pubDate>Tue, 27 Aug 2019 21:54:26 -0700</pubDate>
+      
+      <guid>http://aqk.im/posts/my-computing-history/</guid>
+      <description>Part one, hardware.
+My computing history begins with me pestering my parents until they got me a computer. I didn&amp;rsquo;t know what hardware was out there, but I knew I needed a computer.
+My first computer was the Tandy Color Computer 2.
+Image from wikimedia https://commons.wikimedia.org/wiki/File:TRS-80_Color_Computer_2-64K.jpg
+This computer was affectionaly dubbed the CoCo by its adherents elsewhere, but I didn&amp;rsquo;t learn this nickname until much later. LAter, I also learned that there were many computers with the TRS-80 moniker, spanning at least 3 processor families.</description>
+    </item>
+    
+  </channel>
+</rss>
