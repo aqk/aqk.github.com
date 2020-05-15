@@ -6,23 +6,22 @@
     <description>Recent content on Bit By Bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2019 21:54:26 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://aqk.im/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My Computing History</title>
-      <link>http://aqk.im/posts/my-computing-history/</link>
-      <pubDate>Tue, 27 Aug 2019 21:54:26 -0700</pubDate>
+      <title>We are your package maintainers, and we are here to help</title>
+      <link>http://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://aqk.im/posts/my-computing-history/</guid>
-      <description>Part one, hardware.
-// the feeling of reaching out &amp;ndash; modem
-My computing history begins with me pestering my parents until they got me a computer. I didn&amp;rsquo;t know what hardware existed, but I knew I needed a computer.
-My first computer was the Tandy Color Computer 2.
-Image from wikimedia https://commons.wikimedia.org/wiki/File:TRS-80_Color_Computer_2-64K.jpg
-This computer was affectionaly dubbed the CoCo by its adherents elsewhere, but I didn&amp;rsquo;t learn this nickname until much later.</description>
+      <guid>http://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</guid>
+      <description>So, I was on my computer, doing normal computer stuff.
+Suddenly the trusty Ubuntu Software Updater rear its head.
+Being curious, I start poking around, and not long after, I was confronted with this:
+Sorry, security people, I should have tagged this post Not Safe Or Secure.
+If you follow the link above Wait! Don&#39;t do it! maybe you are running the updated packages right now!!! &amp;hellip; scared you, didn&amp;rsquo;t I?</description>
     </item>
     
     <item>

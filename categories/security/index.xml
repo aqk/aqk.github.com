@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Bit By Bit</title>
+    <link>http://aqk.im/categories/security/</link>
+    <description>Recent content in security on Bit By Bit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://aqk.im/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>We are your package maintainers, and we are here to help</title>
+      <link>http://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</guid>
+      <description>So, I was on my computer, doing normal computer stuff.
+Suddenly the trusty Ubuntu Software Updater rear its head.
+Being curious, I start poking around, and not long after, I was confronted with this:
+Sorry, security people, I should have tagged this post Not Safe Or Secure.
+If you follow the link above Wait! Don&#39;t do it! maybe you are running the updated packages right now!!! &amp;hellip; scared you, didn&amp;rsquo;t I?</description>
+    </item>
+    
+  </channel>
+</rss>
