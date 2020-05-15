@@ -223,24 +223,31 @@
 </div>
 
   <p>So, I was on my computer, doing normal computer stuff.</p>
-<p>Suddenly the trusty Ubuntu Software Updater rear its head.</p>
-<p>Being curious, I start poking around, and not long after, I was confronted with this:</p>
+<p>Suddenly, a new window reared its head. Whew! It was the Ubuntu Software Updater, here to bring security patches, and vetted, cryptographically signed patches from upstream. Yay! I had nothing to fear. Or so it would seem.</p>
+<p>Being curious, I start poking around. Not long after, I was confronted with this:</p>
 <p><img src="/img/enable-tls-1.0-COVID-19.png" alt="App Updater"></p>
-<p>Sorry, security people, I should have tagged this post Not Safe Or Secure.</p>
+<p>Sorry, security people, I should have tagged this post Not Safe Or Secure. You should probably just turn off your computer now.</p>
+<p>If any of you with your computer still connected to the Internet are wondering what <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a> is, it&rsquo;s the &ldquo;S&rdquo; in HTTPS.
+It puts the tiny padlock into your browser&rsquo;s URL bar. <img src="/img/tiny-ssl-padlock.png" alt="Tiny SSL Padlock"> Just drag and drop that on anything you need to be secure. It also used to be called SSL. I think HTTPSSL sounds better than HTTPTLS, don&rsquo;t you? Don&rsquo;t worry about it, it&rsquo;s complicated. Computer people are not the best at naming things.</p>
+<p>And it <a href="https://fortiguard.com/psirt/FG-IR-14-018">definitely</a> <a href="https://www.comodo.com/e-commerce/ssl-certificates/tls-1-deprecation.php">doesn&rsquo;t</a> <a href="https://www.packetlabs.net/tls-1-1-no-longer-secure/">have</a> <a href="https://pentest-tools.com/network-vulnerability-scanning/openssl-heartbleed-scanner">any</a> <a href="https://www.nsoftware.com/kb/articles/legacy/sbb/security-advisory.rst">design</a> or <a href="https://en.wikipedia.org/wiki/Heartbleed">implementaion</a> flaws. At All.</p>
+<p><img src="/img/but-apart-from-all-that.png" alt="Right, but apart from all that"></p>
+<p>All right, but apart from <a href="https://en.wikipedia.org/wiki/POODLE">POODLE</a>, <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security#BEAST_attack">BEAST</a>, <a href="https://en.wikipedia.org/wiki/CRIME">CRIME</a>, <a href="https://en.wikipedia.org/wiki/BREACH">BREACH</a>, <a href="https://heartbleed.com/">Heartbleed</a>, and <a href="https://www.openssl.org/news/vulnerabilities.html">a few other CVEs</a>, what has the TLS protocol and OpenSSL ever done to us?</p>
+<p>I mean, COVID-19 is a good reason to stop doing a host of other things, so you might as well add downgrading hundreds of millions of browsers and other applications to that list! Applications such as, say, package managers. Whoops, <a href="https://whydoesaptnotusehttps.com/">not apt</a>. Never mind. (Chris Lamb makes many valid points on that page. But substituting packages are not the only attacks one can launch on an applicaiton delivering other executables.)</p>
 <p>If you <a href="https://bugs.launchpad.net/ubuntu/+source/glib-networking/+bug/1873777">follow the link above</a> 
 
-<span style="color:red">Wait! Don't do it! maybe you are running the updated packages right now!!!</span>
+<span style="color:red">Wait! Don't do it! maybe you are running the downgraded packages right now!!!</span>
 </p>
 <p>&hellip; scared you, didn&rsquo;t I? &hellip; Good &hellip;</p>
-<p>Anyway, if you <a href="https://bugs.launchpad.net/ubuntu/+source/glib-networking/+bug/1873777">go ahead and click the link</a>, you will see a &ldquo;bug report&rdquo; that is WAY too light on information for my liking.</p>
+<p>Anyway, if you <a href="https://bugs.launchpad.net/ubuntu/+source/glib-networking/+bug/1873777">go ahead and click the link</a>, you will see a &ldquo;bug report&rdquo; that is <em>WAY</em> too light on information for my liking.</p>
 <p>Especially for a change that re-enables TLS 1.0.</p>
 <p>The only post on that page that attempts to justify the roll-back is this:</p>
 <p><img src="/img/mozilla-google-microsoft-revert-security-enhancement.png" alt="Ubuntu Launchpad bug 1873777 discussion"></p>
-<p>It&rsquo;s ok, Firefox did it first:</p>
+<p>It&rsquo;s ok, though, Firefox did it first:</p>
 <p><img src="/img/firefox-tls-downgrade.png" alt="Firefox reverts TLS 1.2 enforcement"></p>
 <p>Uh, <a href="https://www.mozilla.org/en-US/firefox/74.0/releasenotes/">thanks, Firefox</a>?</p>
 <p>(Previous announcement of TLS 1.0 and 1.1 deprecation in Firefox <a href="https://hacks.mozilla.org/2020/02/its-the-boot-for-tls-1-0-and-tls-1-1/">here</a>)</p>
-<p>I mean, you could ask why the government doesn&rsquo;t use a cert from <a href="https://letsencrypt.org/how-it-works/">Let&rsquo;s Encrypt</a>, or just serve via plain old non-encrypted HTTP, or expose a <a href="/img/Windows_for_Workgroups.png">Windows 3.11 for Workgroups File Share</a>. The instructions are right on the Internet. But I certainly will not, because such pettiness is beneath me.</p>
+<p>I mean, you could ask why the government doesn&rsquo;t use a cert from <a href="https://letsencrypt.org/how-it-works/">Let&rsquo;s Encrypt</a>, or just serve pages via plain old non-encrypted HTTP, or expose a <a href="/img/Windows_for_Workgroups.png">Windows 3.11 for Workgroups File Share</a>. The instructions are right on the Internet. Somebody link the government&rsquo;s Internet department to my blog. If you are sending a FAX, make sure to write the URLs in the margins.</p>
+<p>You can certainly ask these things, but I will not, because such pettiness is beneath me. Also, the government knows where I live.</p>
 <p>Okay, enough preaching.</p>
 <p>What should you do? Well, here&rsquo;s what I did:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ apt list glib-networking glib-networking-common glib-networking-services
@@ -256,10 +263,19 @@ glib-networking set on hold.
 glib-networking-common set on hold.
 glib-networking-services set on hold.
 </code></pre></div><p>Okay. Now Ubuntu can&rsquo;t update those packages from under us.</p>
-<p>If you have not been keeping up with developments in TLS security, and weren&rsquo;t terrified of the prospect of TLS 1.0 being turned back on for <a href="https://ubuntu.com/blog/ubuntu-is-everywhere">millions of computer users worldwide</a>, here&rsquo;s the TL;DR:</p>
-<p>The moral of this story is that even on an open source OS, developed in the open, with maintainers that are well-meaning, your computer will be updated by people you don&rsquo;t know, and change and break in ways you have no hope of ever noticing, or being able to fix. But don&rsquo;t worry about those updates that much, because it&rsquo;s definitely already broken. And that&rsquo;s on the well-maintained ones.</p>
+<p>If you have not been keeping up with developments in TLS security, and weren&rsquo;t terrified of the prospect of TLS 1.0 being turned back on for <a href="https://ubuntu.com/blog/ubuntu-is-everywhere">millions of computer users worldwide</a>, here&rsquo;s my TL;DR:</p>
+<p>The moral of this story is that even on an open source OS, developed in the open, with maintainers that are well-meaning, your computer will be updated by people you don&rsquo;t know, and change and break in ways you will probably never notice, or be able to fix. But don&rsquo;t worry about those updates that much, because it&rsquo;s definitely already broken. And that&rsquo;s on the well-maintained ones.</p>
 <p>I&rsquo;m betting this TLS-downgrade attack, I mean, &ldquo;update&rdquo; was even more opaquely described elsewhere.</p>
 <p>Sleep well!</p>
+<p>Addendum. I just crashed my blog generator while editing this. No more security posts for a while.</p>
+<p>Here is an offering to the security gods that can double as a good night poem for your child or pet:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Change detected, rebuilding site.
+2020-05-14 21:13:55.271 -0000
+Source changed <span style="color:#e6db74">&#34;/home/aqk/blog/content/posts/we-are-your-package-maintainers-and-we-are-here-to-help.md&#34;</span>: WRITE
+Total in <span style="color:#ae81ff">0</span> ms
+panic: runtime error: invalid memory address or nil pointer dereference
+<span style="color:#f92672">[</span>signal SIGSEGV: segmentation violation code<span style="color:#f92672">=</span>0x1 addr<span style="color:#f92672">=</span>0x0 pc<span style="color:#f92672">=</span>0xf897b6<span style="color:#f92672">]</span>
+</code></pre></div><p>Beautiful.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 
