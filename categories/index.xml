@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bit By Bit</title>
-    <link>http://aqk.im/categories/</link>
+    <link>https://aqk.im/categories/</link>
     <description>Recent content in Categories on Bit By Bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://aqk.im/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aqk.im/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>security</title>
-      <link>http://aqk.im/categories/security/</link>
+      <link>https://aqk.im/categories/security/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://aqk.im/categories/security/</guid>
+      <guid>https://aqk.im/categories/security/</guid>
       <description></description>
     </item>
     

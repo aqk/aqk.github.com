@@ -1,0 +1,96 @@
+---
+title: "Figuring Out Why the Posts Are Not Showing"
+date: 2020-05-27T22:55:39-07:00
+draft: true
+---
+
+
+The answer is not htat interesting.
+
+Let's see how I found out.
+
+
+First, I went to the repo containing the theme I was using, to see if I missed a configuration option.
+
+https://github.com/yoshiharuyamashita/blackburn
+
+It didn't look as if I had.
+
+Then, I looked at the author's github repos to find his website, that used the theme
+
+https://github.com/yoshiharuyamashita/
+https://github.com/yoshiharuyamashita/yoshiharuyamashita.com/
+
+Now I could do "view source" on his front page, and mine, and see where the difference in the generated output began.
+
+Machine generated HTML is brutal, so let's skip over some of that.
+
+
+His first post is "ラグビー Wales v Japan を観戦!"
+
+<a href="view-source:http://yoshiharuyamashita.com/">here</a>
+
+
+That starts with
+```
+div class="content">
+
+```
+
+and each post is wrapped in
+
+```
+    <article>
+  <header>
+
+```
+
+Now I could find where my articles weere supposed to begin.
+
+Yes, my generated output did have
+content
+
+but no
+```
+<div class="content">
+  
+
+  
+
+
+</div>
+```
+
+Like a big empty bed for a Great Dane, with no kittens in it.
+
+Going back to Yoshi's correctly generated HTML, the URL of his first post is
+
+http://yoshiharuyamashita.com/post/wales-v-japan-principality-stadium-cardiff/
+
+Ah ha! His content is rooted at post, mine at posts.
+
+Now we are getting somewhere.
+
+Seaarching for references to
+
+```
+ack content\/post
+
+themes/blackburn/exampleSite/content/post/creating-a-new-theme.md
+587:INFO: 2014/09/29 creating /Users/quoha/Sites/zafta/content/post/first.md
+588:/Users/quoha/Sites/zafta/content/post/first.md created
+
+```
+
+This document was created by Michael Henderson on 2014-09-28
+
+At this point, I can assume that Yoshi made the Blackburn Theme against an older version of Hugo, and times have moved on, with modern documentation and tutorials guiding new Hugo users to place posts in content/posts.
+
+Now we have a choice
+* Change theme
+* Learn enough about Hugo to modify the theme
+* Move the posts from content/posts to content/post
+
+
+
+

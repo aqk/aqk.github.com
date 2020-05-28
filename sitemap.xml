@@ -3,48 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://aqk.im/</loc>
+    <loc>https://aqk.im/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://aqk.im/categories/</loc>
+    <loc>https://aqk.im/categories/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://aqk.im/posts/</loc>
+    <loc>https://aqk.im/posts/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://aqk.im/categories/security/</loc>
+    <loc>https://aqk.im/categories/security/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</loc>
+    <loc>https://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://aqk.im/posts/my-computing-history-culture/</loc>
-  </url>
-  
-  <url>
-    <loc>http://aqk.im/posts/my-computing-history-notes/</loc>
-  </url>
-  
-  <url>
-    <loc>http://aqk.im/posts/my-computing-history-software/</loc>
-  </url>
-  
-  <url>
-    <loc>http://aqk.im/posts/teh-snobs/</loc>
-  </url>
-  
-  <url>
-    <loc>http://aqk.im/tags/</loc>
+    <loc>https://aqk.im/tags/</loc>
   </url>
   
 </urlset>

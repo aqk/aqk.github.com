@@ -2,23 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>security on Bit By Bit</title>
-    <link>http://aqk.im/categories/security/</link>
+    <link>https://aqk.im/categories/security/</link>
     <description>Recent content in security on Bit By Bit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://aqk.im/categories/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aqk.im/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>We are your package maintainers, and we are here to help</title>
-      <link>http://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</link>
+      <link>https://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</guid>
+      <guid>https://aqk.im/posts/we-are-your-package-maintainers-and-we-are-here-to-help/</guid>
       <description>So, I was on my computer, doing normal computer stuff.
-Suddenly, a new window reared its head. Whew! It was the Ubuntu Software Updater, here to bring vetted, cryptographically signed updates to my computer, security patches among them. Yay! I had nothing to fear. Or so it would seem.
+Suddenly, a new window reared its head. Whew! It was the Ubuntu Software Updater, here to bring vetted, cryptographically signed updates to my computer, security patches among them. Yay!
+I had nothing to fear. Or so it would seem.
 Being curious, I started poking around. Not long after, I was confronted with this:
 Sorry, security people, I should have tagged this post Not Safe Or Secure.</description>
     </item>
